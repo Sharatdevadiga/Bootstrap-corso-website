@@ -1,0 +1,40 @@
+// header
+.header {
+  background: linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("../images/header-background.jpg") center center no-repeat;
+  background-size: cover;
+}
+.header {
+  min-height: 900px !important;
+}
+
+.header .slide {
+  width: 70%;
+  margin: 0 auto;
+}
+.invitation-bg {
+  background: linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("../images/invitation-background.jpg");
+}
+
+@media (max-width: 992px) {
+  .header {
+    height: 800px;
+    min-height: 800px !important;
+  }
+  h2 {
+    text-align: center;
+    font-weight: bold;
+  }
+  .summary {
+    width: 90% !important;
+  }
+}
